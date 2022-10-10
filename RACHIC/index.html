@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RACHIC | Racik Kesegaranmu</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="./index.html">RACHIC</a></div>
+        <nav class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <div class="menu">
+                <li><a href="#beranda">BERANDA</a></li>
+                <li><a href="#fitur" onclick="OnFuetures();">FITUR</a></li>
+                <li><a href="#tentang">TENTANG SAYA</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <article id="beranda" class="card">
+                <img src="assets/image/header.png" class="featured-image" alt="sejarah">
+                <span>
+                    <h1>Racik Kesegaranmu Sendiri !</h1>
+                    <h4>Berisi resep berbagai minuman yang dapat kamu coba dengan mudah di rumah.</h4>
+                    <p>Unduh aplikasinya dan rasakan kesegarannya !!!</p>
+                    <img src="assets/image/play_store.jpg" alt="" onclick="OnUnduh();">
+                </span>
+            </article>
+            <article id="fitur" class="card">
+                <img src="assets/image/racik.png" class="featured-image" alt="Racik">
+                <span>
+                    <h1>Nikmati Resepnya</h1>
+                    <p>Buat minumanmu dengan meraciknya berdasarkan resep yang kami sediakan. Kami menyediakan berbagai racikan yang dapat kamu coba dan banyak racikan halal.</p>
+                </span>
+            </article>
+            <article id="fitur" class="card">
+                <img src="assets/image/rasakan.png" class="featured-image" alt="Kreasi">
+                <span>
+                    <h1>Racik Minumanmu</h1>
+                    <p>Berkreasi dengan racikanmu sendiri. Kami akan meninjau racikanmu tidak membahayakan, jika aman kalian menjadi pemilik dari resep yang kalian buat. Namun jika tidak aman kami akan menolaknya.</p>
+                </span>
+            </article>
+            <article id="fitur" class="card">
+                <img src="assets/image/bersama.png" class="featured-image" alt="Kebersamaam">
+                <span>
+                    <h1>Berbagi Kesegaran</h1>
+                    <p>Upload racikanmu ke media sosial dan ajak temanmu untuk mencobanya. Semakin banyak yang mencobanya maka kalian akan menjadi peracik handal.</p>
+                </span>
+            </article>
+            <aside>
+                <article id="tentang">
+                    <section>
+                        <h2>Tentang Saya</h2>
+                        <figure>
+                            <img src="assets/image/profile.jpg" alt="Profile Picture">
+                        </figure>
+                    </section>
+                    <section>
+                        <h3>Biodata</h3>
+                        <table>
+                            <tr>
+                                <th>Nama</th>
+                                <td>Asyrafbilal Fadhila Bhinar Jaya</td>
+                            </tr>
+                            <tr>
+                                <th>Umur</th>
+                                <td>20 tahun</td>
+                            </tr>
+                            <tr>
+                                <th>Asal</th>
+                                <td>Banyuwangi</td>
+                            </tr>
+                        </table>
+                    </section>
+                </article>
+            </aside>
+        </div>
+        <div id="features">
+            <div class="background">
+            </div>
+            <div class="message">
+                <h3>Hal yang bisa kamu lakukan di RACHIC.</h3>
+                <img src="assets/image/fitur.png" alt="">
+            </div>
+        </div>
+        
+    </main>
+    
+    <footer>
+        <p>RACHIC &#169; 2022, Asyraf</p>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript.js"></script>
+</body>
+</html>
