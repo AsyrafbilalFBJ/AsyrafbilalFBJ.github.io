@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Unit 3C | Unit Computing Certification Center</title>
+        <link rel="icon" type="image/x-icon" href="assets/images/logo_unit3c.png">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <style>
+            .container-fluid {
+                padding: 10px 120px;
+            }
+            .banner {
+                background-image: url(assets/images/banner3.png);
+                /* background-image: linear-gradient(to bottom, rgba(255,0,0,0) 95%,white 100%), url(assets/images/banner2.png); */
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 80vh;
+                text-align: center;
+            }
+            .banner .banner-text {
+                margin-top: 100px;
+            }
+            .supporter {
+                margin: 100px;
+            }
+            .supporter h4 {
+                margin: 50px 0 40px 0;
+            }
+            .row {
+                margin: auto;
+            }
+            .supporter img{
+                max-width: 250px;
+                padding: 10px;
+            }
+            .kenapa .row {
+                background-color: #F4F4F5;
+                padding: 100px;
+            }
+            .kenapa h4 {
+                padding: 20px;
+            }
+            .produk h4 {
+                margin: 50px 0 100px 0;
+            }
+            .produk {
+                margin: 100px;
+            }
+            .carouselExampleIndicators {
+                height: 70vh;
+            }
+            .carousel-inner {
+                background-color: #F4F4F5;
+                height: max-content;
+            }
+            .carousel-inner img {
+                width: 100px;
+                height: 100px;
+            }
+            .carousel-content {
+                padding: 20px 0;
+                margin: 0 100px 100px 100px;
+            }
+            .testi h4 {
+                margin: 80px 0 20px 0;
+            }
+            .ajakan {
+                border-radius: 5px;
+                padding: 50px;
+                margin: 100px;
+                background-color: #32DE84;
+            }
+            .footerLine {
+                margin: 100px 100px 0 100px;
+            }
+            .footerLine .card-group {
+                padding-top: 90px;
+            }
+            .footer img {
+                max-width: 150px;
+                margin-left: 15px;
+            }
+            .footerEnd {
+                border-radius: 5px 5px 0 0;
+                margin: 100px 100px 0 100px;
+                background-color: #32DE84;
+                height: max-content;
+                padding: 5px 0 5px 0;
+            }
+
+            .logoBrand {
+                box-shadow: .125rem .125rem .125rem 0px rgba(0, 0, 0, 0.05);
+                padding: 23px 120px;
+            }
+            .dashboardContent {
+                background-color: #F4F4F5;
+                width: 100%;
+                height: 100vh;
+            }
+            .navbar img {
+                width: 40px;
+                height: 40px;
+                margin: 8px 0 7px 0;
+            }
+            .navbar {
+                box-shadow: .125rem .125rem .125rem 0px rgba(0, 0, 0, 0.05);
+            }
+            .daftarKelas {
+                margin: 50px;
+            }
+            .daftarKelas h5 {
+                padding: 10px 0;
+            }
+            .daftarKelas ul {
+                padding: 10px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills bg-transparent" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="logoBrand" href="index.html"><img src="assets/images/logo_unit3c.png" alt="logo_unit3c" width="40" height="45"></a>
+                <button class="nav-link active rounded-0 text-start" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+                <button class="nav-link rounded-0 text-start" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Kelas</button>
+                <!-- <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Selesai</button>
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Pengaturan</button> -->
+            </div>
+            <div class="tab-content dashboardContent" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                    <nav class="navbar navbar-expand-lg bg-white sticky-top  m-0 p-0">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li>
+                                        <h5>Selamat Datang User</h5>
+                                    </li>
+                                </ul>
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle fs-5 .text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img class="rounded-circle" src="assets/images/person1.jpg" alt="">
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Pengaturan</a></li>
+                                            <li><a class="dropdown-item" href="#">Keluar</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                    <nav class="navbar navbar-expand-lg bg-white sticky-top  m-0 p-0">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li>
+                                        <h5>Selamat Datang User</h5>
+                                    </li>
+                                </ul>
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle fs-5 .text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img class="rounded-circle" src="assets/images/person1.jpg" alt="">
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Pengaturan</a></li>
+                                            <li><a class="dropdown-item" href="#">Keluar</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="daftarKelas">
+                        <div class="progres">
+                            <h5>Sedang dipelajari</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Certified Secure Computer User (CSCU)
+                                    <a class="btn btn-success rounded">Lanjut Belajar</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="selesai">
+                            <h5>Selesai</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Microsoft Azure DevOps Solutions (AZ-400)
+                                    <a class="btn btn-outline-secondary rounded">Lihat Sertifikat</a>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Mikrotik Certified Network Associate (MTCNA)
+                                    <a class="btn btn-outline-secondary rounded">Lihat Sertifikat</a>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Microsoft Azure Architect Technologies (AZ-303)
+                                    <a class="btn btn-outline-secondary rounded">Lihat Sertifikat</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">Messages</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">Settings</div> -->
+            </div>
+        </div>
+        <div class="footer">
+        </div>
+        
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <!-- <script src="bootstrap/js/bootstrap.bundle.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+</html>
