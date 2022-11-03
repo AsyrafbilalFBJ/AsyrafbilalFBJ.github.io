@@ -131,47 +131,68 @@
             .content {
                 height: fit-content;
             }
+
+            .materi {
+                margin: 20px 100px;
+            }
+            .footer {
+                box-shadow: .125rem .125rem .125rem .3rem rgba(0, 0, 0, 0.06);
+                height: 50px;
+            }
+
+            .soal {
+                margin: 100px;
+            }
         </style>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logo_unit3c.png" alt="Bootstrap" width="40" height="45"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <span class="fs-5 text-dark">Selamat Datang User</span>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="userImage nav-link dropdown-toggle fs-5 .text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img class="rounded-circle" src="assets/images/person1.jpg" alt="">
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Pengaturan</a></li>
-                                <li><a class="dropdown-item" href="#">Keluar</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+        <div class="soal container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="nomorSoal">
+                        <a href="soal1.html" class="btn btn-light">1</a>
+                        <a href="" class="btn btn-dark">2</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="pertanyaan">
+                        <h5>Darimana asal Lorem Ipsum?</h5>
+                        <div class="list-group" role="group" aria-label="Basic radio toggle button group">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+                                        <label class="btn btn-outline-secondary" for="btnradio1">A</label>
+                                    </td>
+                                    <td>
+                                        <label for="">Latin literature</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                                        <label class="btn btn-outline-secondary" for="btnradio2">B</label>
+                                    </td>
+                                    <td>
+                                        <label for="">Lathi</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                                        <label class="btn btn-outline-secondary" for="btnradio3">C</label>
+                                    </td>
+                                    <td>
+                                        <label for="">Ngawi</label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                        <a href="hasilUjian.html" class="btn btn-dark">Selesai</a>
+                    </div>
                 </div>
             </div>
-        </nav>
-        <div class="content d-flex">
-            <div class="sideNav bg-white">
-                <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item list-group-item-success"><a href="dashboard.html" class="link-success text-decoration-none">Home</a></li>
-                    <li class="list-group-item"><a href="dashboardKelas.html" class="link-success text-decoration-none">Kelas</a></li>
-                </ul>
-            </div>
-            <div class="dashboardContent">
-                
-            </div>
-        </div>
-        <div class="footer">
         </div>
         
         <script src="bootstrap/js/bootstrap.js"></script>

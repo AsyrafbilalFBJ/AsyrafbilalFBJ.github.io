@@ -131,6 +131,18 @@
             .content {
                 height: fit-content;
             }
+
+            .materi {
+                margin: 20px 100px;
+            }
+            .footer {
+                box-shadow: .125rem .125rem .125rem .3rem rgba(0, 0, 0, 0.06);
+                height: 50px;
+            }
+
+            .sertifikat img {
+                width: 700px;
+            }
         </style>
     </head>
     <body>
@@ -143,10 +155,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <span class="fs-5 text-dark">Selamat Datang User</span>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
                         </li>
                     </ul>
                     <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item mt-1">
+                            <button class=" btn btn-light fs-5 text-dark">Daftar Modul</button>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="userImage nav-link dropdown-toggle fs-5 .text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img class="rounded-circle" src="assets/images/person1.jpg" alt="">
@@ -160,18 +178,19 @@
                 </div>
             </div>
         </nav>
-        <div class="content d-flex">
-            <div class="sideNav bg-white">
-                <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item list-group-item-success"><a href="dashboard.html" class="link-success text-decoration-none">Home</a></li>
-                    <li class="list-group-item"><a href="dashboardKelas.html" class="link-success text-decoration-none">Kelas</a></li>
-                </ul>
+        <div class="materi">
+            
+            <div class="sertifikat text-center">
+                <h4>Sertifikatmu</h4>
+                <img src="assets/images/sertifikat.webp" alt="sertifikat">
+                <br><br>
+                <button class="btn btn-dark">Unduh</button>
             </div>
-            <div class="dashboardContent">
-                
-            </div>
-        </div>
-        <div class="footer">
+            <p>Selamat kamu sudah menyelesaikan Test akhir dengan baik.</p>
+            <p>Skor&ensp;87%</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ad praesentium labore esse obcaecati aliquid repudiandae ea aliquam ipsum iusto sapiente officia nulla laboriosam ullam quis, ratione dolorem, minima eveniet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dignissimos optio, possimus temporibus eum saepe placeat porro eos recusandae perferendis odio accusantium iusto explicabo. Blanditiis dolorum sunt rerum deserunt consequatur.</p>
+            <br>
+            <a href="dashboard.html" class="btn btn-dark">Dashboard</a>
         </div>
         
         <script src="bootstrap/js/bootstrap.js"></script>
