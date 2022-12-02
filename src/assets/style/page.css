@@ -1,0 +1,88 @@
+.card {
+    padding: 50px 50px 20px 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #1E1E1E;
+}
+.card_background {
+    background-image: url('~@/assets/bg_empty.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+img {
+    height: 60%;
+    width: 60%;
+}
+.body_background_pria {
+    background-color: #D6E6FF;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+    z-index: -100;
+}
+.body_background_wanita {
+    background-color: #FDE2FF;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+    z-index: -100;
+}
+.body_background_lain {
+    background-color: #DCDCDC;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+    z-index: -100;
+}
+button {
+    width: 100%;
+}
+.pria_text {
+    color: #002772;
+}
+.wanita_text {
+    color: #720060;
+}
+.pria_button {
+    color: #FFFFFF;
+    background-color: #002772;
+}
+.wanita_button {
+    color: #FFFFFF;
+    background-color: #720060;
+}
+.pria_border {
+    color: #002772;
+    border-color: #002772;
+    background-color: #FFFFFF;
+}
+.wanita_border {
+    color: #720060;
+    border-color: #720060;
+    background-color: #FFFFFF;
+}
+.hide {
+    visibility: hidden;
+}
+.show {
+    visibility: visible;
+    height: 70vh;
+}
+.hide_button {
+    display: none;
+}
+.show_button {
+    display: block;
+    /* margin-top: 100px; */
+}

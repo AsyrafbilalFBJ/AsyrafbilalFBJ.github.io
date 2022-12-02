@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-3.8.2.min.css" />
+  <ProductDisplay/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ProductDisplay from './components/ProductDisplay.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ProductDisplay
   }
 }
 </script>
@@ -20,7 +20,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  /* color: #2c3e50; */
   margin-top: 60px;
 }
 </style>
